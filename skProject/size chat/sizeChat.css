@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.sizeBrand{
+    border: 2px solid black;
+    width: 400px;
+    display: flex;
+    
+}
+.size{
+    border: 2px solid black;
+    width: 400px;
+}
+
+
+.hide{
+    /* height: 0;
+    overflow: hidden; */
+    display: none;
+}

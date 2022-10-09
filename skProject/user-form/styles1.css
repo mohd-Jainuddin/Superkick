@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    /* border: 1px solid black; */
+    max-width: 92vw;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,
+p {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.resister .item {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+.login .item {
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+
+.login {
+    width: 42%;
+    margin-top: 10px;
+}
+
+.resister {
+    width: 45%;
+    margin-top: 10px;
+}
+
+.res {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.imp {
+    color: red;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.btn1,
+.btn2 {
+    padding: 7px;
+    background-color: rgb(90, 87, 87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: grey;
+}
+
+.para {
+    margin-top: 8px;
+}
+
+.check1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.check {
+    margin-top: 15px;
+}
+
+.forgot a {
+    margin-top: 25px;
+    color: black;
+}
+
+.forgot {
+    margin-top: 25px;
+}
+
+
+.link{
+    margin-top: 20px;
+}
+
+.link a{
+    margin-right: 7px;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: black;
+}
+
+.profile{
+    background-color: blueviolet;
+    height: 80vh;
+    display: flex; 
+     justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.login-heading-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-message{
+    width: 300px;
+    text-align: center;
+    margin-right: 120px;
+    /* border: 1px solid black; */
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.Tc {
+    /* border: 2px solid black; */
+    width: 70%;
+    margin: 30px;
+    text-align: justify;
+}
+
+.Tc-heading{
+ font-weight: normal;
+ font-size: 40px;
+ margin: 10px 0;
+}
+
+.tc_heading_para2{
+    font-weight: bold;
+    /* margin: 10px 0; */
+}
+
+.Tc div{
+    margin: 20px 0;
+}
+.Tc div h2{
+    margin-bottom: 10px;
+}
+.Tc div ul{
+    margin-left: 30px;
+}

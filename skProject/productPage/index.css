@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product_page{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+/* =============================================================== */
+.search-filter{
+    margin: 30px 20px;
+}
+.search-filter p{
+    display: inline-block;
+    margin-right:80px ;
+}
+.search-filter select{
+   height: 35px;
+   padding:0 10px;
+   cursor: pointer;
+}
+/* ======================================================= */
+.filterTitle{ 
+    margin: 20px 0 10px 0;
+}
+/* ======================================================= */
+.filterByGender{
+    padding:0 10px;
+}
+.filterByGender div{
+    margin: 10px 0;
+}
+/* ========================================================= */
+.filterbysize,.apparelsize,.filterbrand,.filtercolor{
+    height: 200px;
+    overflow-y: auto;
+    padding:0 10px;
+}
+.filterbysize div,.apparelsize div,.filterbrand div,.filtercolor div{
+    margin: 20px 0;
+}
+.filterbysize label,.apparelsize label,.filterbrand label,.filtercolor label,.filterByGender label{
+    margin: 0 10px;
+    color: grey;
+    cursor: pointer;
+}
+.filterbysize label:hover,.apparelsize label:hover,.filterbrand label:hover,.filtercolor label:hover,.filterByGender label:hover{
+    color: black;
+}
+/* ================================================================================= */
+.filterprice input{
+    margin: 10px 0 0 30px;
+    width: 100px;
+    height: 30px;
+}
+.apply-Filter,.reset-Filter{
+    margin: 30px 0 30px 30px;
+    border: none;
+    background-color: rgb(80, 77, 77);
+    padding: 7px 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reset-Filter{
+    margin-top: 0;
+}
+.apply-Filter:hover,.reset-Filter:hover{
+    background-color: black;
+}
+/* ======================================================================================= */
+.product-box{
+     margin-left:40px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 45px;
+    grid-column-gap:30px ;
+}
+@media screen and (max-width:800px) {
+    .product-box{
+        grid-template-columns: auto;
+    }
+}
+.product img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.p-type{
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+.s-product-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.p-title{
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+    font-weight: bold;
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.p_prices{
+    color: rgb(102, 95, 95);
+    margin-top: 5px;
+}
+/* ===================================================================== */

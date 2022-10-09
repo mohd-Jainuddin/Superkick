@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cart-body{
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+}
+.cart-total{
+    height:min-content;
+    background-color: rgb(248, 248, 255);
+    border: 1px solid rgb(175, 175, 175);
+}
+.cart-total p{
+    font-size: 17px;
+}
+.cart-sub-total,.flat-rate-part,.carttotal{
+    display: flex;
+    justify-content: space-between; 
+}
+.cart-sub-total,.carttotal,.cart-shipping{
+    padding: 17px 15px 17px 20px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.flat-rate-part{
+    padding: 17px 0;
+}
+.cart-change-adress{
+padding-top: 17px;
+}
+.cart-total-price{
+    text-align: right;
+}
+.process-checkout-btn{
+    background-color: rgb(56, 54, 54);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.process-checkout-btn:hover{
+    background-color: black;
+}
+.cart-total-heading p,.cart-total-price>:first-child,.shipping-address span,.flat-rate-part li{
+    font-weight: bold;
+    font-size: 19px;
+}
+.cart-total-price>:first-child{
+    padding-bottom: 8px;
+}
+.cart-emi{
+    padding: 17px 15px 30px 20px;
+}
+.renove-item-cart{
+    cursor: pointer;
+}
+
+
+
+
+
+.cart-item{
+    padding: 10px;
+    height:min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(228, 225, 225);
+}
+
+.cart-product-item{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.cart-product-item img{
+    height: 75px;
+    width: 60px;
+    margin: 5px 10px;
+}
+#cart-qt{
+width: 40px;
+height: 30px;
+outline: none;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart-product-name{
+    width: 300px;
+}
+
+
+
+
+.cart-coupon-giftcard{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+}
+
+
+.cart-coupon-giftcard input{
+ width: 200px;
+ height: 40px;
+ border: 1px solid rgb(214, 213, 213);
+ outline: none;
+ /* font-size: px; */
+ padding: 10px;
+ margin-right: 20px;
+ 
+}
+.cart-coupon-giftcard div div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.coupon,.GiftCard{
+    border: none;
+    background-color: rgb(243, 242, 242);
+    padding: 0 20px;
+}
+
+.coupon:hover,.GiftCard:hover,.update-cart:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.update-cart{
+    padding: 10px 20px;
+}
+
+
+
+
+/* ------------------------------------------------------------------- */
+.top_section{
+    margin-top: 50px;
+}
+.checkout_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    width: 150px;
+    height: 5px;
+    background-color: green;
+    border-radius: 10px;
+}
+.second,.third,.fourth{
+    width: 250px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.fourth{
+    width: 150px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+h1{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 70px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.order_updates{
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.update1{
+    position: relative;
+    top: 2%;
+    left: 7%;
+}
+.update2{
+    position: relative;
+    top: 2%;
+    left: 2%;
+}
+.update3{
+    position: relative;
+    top: 2%;
+    right: 5%;
+}

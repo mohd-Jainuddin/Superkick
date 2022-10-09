@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.checkout_boxp{
+   min-width: 27%;
+   background-color: lightseagreen;
+   min-height: 100vh;
+   border: none;
+   position: absolute;
+   right: 0%;
+   top: 0%;
+  
+   /* border: 1px solid black/; */
+}
+
+.finaldataindex{
+    display: grid;
+    grid-template-rows:1fr 5fr 1fr 2fr;
+    height: 100vh;
+    padding: 1rem;
+    border: none;
+}
+
+.finaldata,.delete_items,.subbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.subbtn{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+   
+}
+.cancelation_btn1{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+.popup_btn{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_btn a {
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.popup_btn div{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 ;
+    padding: 7px 0;
+}
+
+.viewcartbtn{
+    color: white;
+    padding: 10px 50px;
+    background-color:green;
+    text-align: center;
+}
+.Checkout{
+    color: white;
+    padding: 10px 50px;
+    background-color:rgba(0, 0, 0, 0.705);
+    text-align: center;
+}
+
+
+.finalbillcart{
+    width: 50px;
+
+}
+
+
+.hide{
+    display: none;
+}
+
+
+#all_cartitem{
+    overflow-y: auto;
+   padding: 0.5rem;
+   
+    }
+    
+
+    .delete_items{
+        border-top: 1px solid white;
+        padding: 0.2rem;
+       
+    }
+    
+
+
+.delete_items p{
+font-size: 12px;
+width: 200px;
+/* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+
+

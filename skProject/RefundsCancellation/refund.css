@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.refund{
+    width: 65%;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.refund-heading{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.refund-para1,.refund-para2,.refund-para3,.cancel_para{
+    /* font-size: 20px; */
+    line-height: 1.3;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.refund-para2,.refund-para3{
+    font-weight: bold;
+}
+.cancellation{
+    font-weight: normal;
+    font-size: 30px;
+    margin: 15px 0;
+    margin-left: 10px;
+}

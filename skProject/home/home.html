@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://kit.fontawesome.com/b489e498a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../header-footer/styles.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="Slider.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header class="container">
+        <nav class="nav">
+
+            <!-- header logo -->
+            <div class="logo">
+                <a href="home.html"><img src="../img/squarelogo-1.png" alt="img"></a>
+            </div>
+
+            <!-- header links -->
+            <div class="links nav">
+                <ul>
+                    <li class="x"><a href="../productPage/index.html">NEW ARRIVALS</a></li>
+                    <li class="x"><a href="../footwear/index.html">FOOTWEAR</a>
+                        <div class="sub-link">
+                            <ul>
+                                <li class="hover-me"><a href="../m_footwear/index.html">MEN<i
+                                            class="fa-solid fa-greater-than"></i></a>
+                                    <div class="sub-link2">
+                                        <ul>
+                                            <li><a href="#">Sneakers</a></li>
+                                            <li><a href="#">Slider & Sandals</a></li>
+                                            <li><a href="#">Classics</a></li>
+                                            <li><a href="#">Basketball</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="hover-me"><a href="../w_footwear/index.html">WOMEN<i
+                                            class="fa-solid fa-greater-than"></i></a>
+                                    <div class="sub-link2">
+                                        <ul>
+                                            <li><a href="#">Sneakers</a></li>
+                                            <li><a href="#">Slider & Sandals</a></li>
+                                            <li><a href="#">Classics</a></li>
+                                            <li><a href="#">Basketball</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="../apparel/index.html">APPREL</a></li>
+                    <li class="x"><a href="#">ACCESSORIES</a></li>
+                    <li class="x"><a href="#">THE BASEMENT</a>
+                        <div class="sub-link3">
+                            <ul>
+                                <li><a href="#">Activations</a></li>
+                                <li><a href="#">Collaborations</a></li>
+                                <li><a href="#">Releases</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="#">BRANDS</a>
+                        <div class="sub-link4">
+                            <ul>
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Asics</a></li>
+                                <li><a href="#">Crocs</a></li>
+                                <li><a href="#">Convers</a></li>
+                                <li><a href="#">Goodness Gracious Goods</a></li>
+                                <li><a href="#">Fila</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">New Balance</a></li>
+                                <li><a href="#">Puma</a></li>
+                                <li><a href="#">Reebok</a></li>
+                                <li><a href="#">Superkicks</a></li>
+                                <li><a href="#">Superplastic</a></li>
+                                <li><a href="#">Sneaker Lab</a></li>
+                                <li><a href="#">Sneaker Freaker</a></li>
+                                <li><a href="#">TOMS</a></li>
+                                <li><a href="#">Vans</a></li>
+                                <li><a href="#">Ylati</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="#">HEAT</a></li>
+                    <li class="x"><a href="#">SALE</a></li>
+                </ul>
+
+                <!-- header search box -->
+                <div class="search">
+                    <span class="inputbox"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <a href="../user-form/index.html"> <span class="user"><i class="fa-regular fa-user"></i></span></a>
+                    <span class="rupee"><i class="fa-solid fa-indian-rupee-sign"></i></span>
+                    <span class="counter"></span>
+                    <a href="../cart/cart.html">
+                        <div class="bag"></div>
+                    </a>
+                    <div class="handle"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- header hovering popup -->
+
+    <div class="footwear">
+
+    </div>
+
+
+    <!-- topbanner -->
+
+    <div class="topbanner">
+        <div>
+            <img id="image" />
+        </div>
+
+        <div class="btn">
+            <button class="btn1" onclick="show_image('left')">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="btn2" onclick="show_image('right')">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- NEW ARRIVALS -->
+
+
+    <h2 class="crousel-header">NEW ARRIVALS</h2>
+    <div class="crousel">
+        <div class="product_container">
+
+        </div>
+        <button class="crousel_btn1">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="crousel_btn2">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- CATEGORY -->
+
+    <h2 class="category-header">CATEGORY</h2>
+    <div class="category">
+        <div class="category-img man"><a href="../men/index.html"><img src="../img/MAN-F-850x1165.jpg" alt=""></a></div>
+        <div class="category-img women"><a href="../women/index.html"><img src="../img/WOMEN-850x1165.jpg" alt=""></a>
+        </div>
+        <div class="category-img apparel"><a href="../apparel/index.html"><img src="../img/APPAREL-F-850x1165.jpg"
+                    alt=""></a></div>
+    </div>
+
+    <!-- STORES -->
+
+    <h2 class="category-header">STORES</h2>
+    <div class="xyz">
+        <div class="stores-india">
+        </div>
+        <div class="btn-n-p">
+            <span class="next">&#8250;</span>
+            <span class="pev">&#8249;</span>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+
+    <footer>
+        <div class="footerbox container">
+            <div class="box1">
+                <p>IMPORTANT LINKS</p><br>
+                <a href="../RefundsCancellation/refund.html">Refunds/Cancellation</a><br>
+                <a href="../Terms and Conditions/T&c.html">terms and Conditions</a><br>
+                <a href="../FAQ/FAQ.html">FAQ</a><br>
+                <a href="../privacy/Privacy.html">Privacy Policy</a><br>
+                <a href="../FAQ/FAQ.html">Shipping</a>
+                <div class="about">© Super Kicks India Pvt. Ltd. 2021</div>
+            </div>
+            <div class="box2">
+                <p>NEED HELP?</p><br>
+                <a href="../user-form/index.html">My Account</a><br>
+                <a href="../size chat/sizeChat.html">Size Chart</a><br>
+                <a href="../contactUs/contactUs.html">Contact Us</a>
+            </div>
+            <div class="box3">
+                <p>FOLLOW</p><br>
+                <a href="https://www.instagram.com/superkicksindia/?hl=en">Instagram</a><br>
+                <a href="https://www.facebook.com/SuperkicksIndia/">Facebook</a>
+            </div>
+            <div class="box4">
+                <p>SUBSCRIBE TO OUR NEWSLETTER</p><br>
+                <P class="para">join our mailing list to recieve the latest news.</P><br>
+                <input class="input" type="text" id="inputItem" placeholder="Email address"><br>
+                <button id="subscribe" class="subBtn">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="home.js"></script>
+    <script src="product.js"></script>
+    <script src="Slider.js"></script>
+    <script src="apidata.js"></script>
+    <script src="../header-footer/script.js"></script>
+</body>
+
+</html>

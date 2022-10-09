@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b489e498a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../header-footer/styles.css">
+</head>
+
+<body>
+
+     <!-- header -->
+     <header class="container">
+        <nav class="nav">
+
+            <!-- header logo -->
+            <div class="logo">
+             <a href="../home/home.html"> <img src="./img/squarelogo-1.png" alt="img"></a>  
+            </div>
+
+            <!-- header links -->
+            <div class="links nav">
+                <ul>
+                    <li class="x"><a href="../productPage/index.html">NEW ARRIVALS</a></li>
+                    <li class="x"><a href="../footwear/index.html">FOOTWEAR</a>
+                        <div class="sub-link">
+                            <ul>
+                                <li class="hover-me"><a href="../m_footwear/index.html">MEN<i class="fa-solid fa-greater-than"></i></a>
+                                    <div class="sub-link2">
+                                        <ul>
+                                            <li><a href="#">Sneakers</a></li>
+                                            <li><a href="#">Slider & Sandals</a></li>
+                                            <li><a href="#">Classics</a></li>
+                                            <li><a href="#">Basketball</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="hover-me"><a href="../w_footwear/index.html">WOMEN<i class="fa-solid fa-greater-than"></i></a>
+                                    <div class="sub-link2">
+                                        <ul>
+                                            <li><a href="#">Sneakers</a></li>
+                                            <li><a href="#">Slider & Sandals</a></li>
+                                            <li><a href="#">Classics</a></li>
+                                            <li><a href="#">Basketball</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="../apparel/index.html">APPREL</a></li>
+                    <li class="x"><a href="#">ACCESSORIES</a></li>
+                    <li class="x"><a href="#">THE BASEMENT</a>
+                        <div class="sub-link3">
+                            <ul>
+                                <li><a href="#">Activations</a></li>
+                                <li><a href="#">Collaborations</a></li>
+                                <li><a href="#">Releases</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="#">BRANDS</a>
+                        <div class="sub-link4">
+                            <ul>
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Asics</a></li>
+                                <li><a href="#">Crocs</a></li>
+                                <li><a href="#">Convers</a></li>
+                                <li><a href="#">Goodness Gracious Goods</a></li>
+                                <li><a href="#">Fila</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">New Balance</a></li>
+                                <li><a href="#">Puma</a></li>
+                                <li><a href="#">Reebok</a></li>
+                                <li><a href="#">Superkicks</a></li>
+                                <li><a href="#">Superplastic</a></li>
+                                <li><a href="#">Sneaker Lab</a></li>
+                                <li><a href="#">Sneaker Freaker</a></li>
+                                <li><a href="#">TOMS</a></li>
+                                <li><a href="#">Vans</a></li>
+                                <li><a href="#">Ylati</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="x"><a href="#">HEAT</a></li>
+                    <li class="x"><a href="#">SALE</a></li>
+                </ul>
+
+                <!-- header search box -->
+                <div class="search">
+                    <span class="inputbox"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <a href="../user-form/index.html"> <span class="user"><i class="fa-regular fa-user"></i></span></a>
+                    <span class="rupee"><i class="fa-solid fa-indian-rupee-sign"></i></span>
+                    <span class="counter">0</span>
+                <a href="../cart/cart.html"><div class="bag">0</div></a>
+                    <div class="handle"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- header hovering popup -->
+
+    <div class="footwear">
+
+    </div>
+
+
+<div class="search-filter">
+    <p>SEARCH & FILTER</p>
+    <select name="" id="">
+        <option value="latest" class="latest">Sort by latest</option>
+        <option value="LtoH" class="LtoH">Sort by price: low to high</option>
+        <option value="HtoL" class="HtoL">Sort by price: high to low</option>
+    </select>
+</div>
+
+
+
+
+    <section class="product_page">
+
+        <section class="filter">
+            <p >Filter by Gender</p>
+            <div class="filterByGender">
+                
+                <div>
+                    <input type="radio" name="Gender" id="all">
+                    <label for="all">All Gender</label>
+                   
+                </div>
+                <div>
+                    <input type="radio" name="Gender" id="men">
+                    <label for="men">Men</label>
+                 
+                </div>
+                <div>
+                    <input type="radio" name="Gender" id="women">
+                    <label for="women">women</label>
+                   
+                </div>
+               
+            </div>
+
+            <p class="filterTitle">Filter by Shoe Size</p>
+            <div class="filterbysize">
+                
+                <div>
+                    <input type="checkbox" name="" id="6">
+                    <label for="6">6</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="6.5">
+                    <label for="6.5">6.5</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="7">
+                    <label for="7">7</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="7.5">
+                    <label for="7.5">7.5</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="8">
+                    <label for="8">8</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="8.5">
+                    <label for="8.5">8.5</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="9">
+                    <label for="9">9</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="9.5">
+                    <label for="9.5">9.5</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="10">
+                    <label for="10">10</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="10.5">
+                    <label for="10.5">10.5</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="11">
+                    <label for="11">11</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="11.5">
+                    <label for="11.5">11.5</label>
+                </div>
+            </div>
+
+            <p class="filterTitle">Filter by Apparel Size</p>
+            <div class="apparelsize">
+                <div>
+                    <input type="checkbox" name="" id="36">
+                    <label for="36">36</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="40">
+                    <label for="40">40</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="44">
+                    <label for="44">44</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="S">
+                    <label for="S">S</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="M">
+                    <label for="M">M</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="L">
+                    <label for="L">L</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="XL">
+                    <label for="XL">XL</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="XXL">
+                    <label for="XXL">XXL</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="XXXL">
+                    <label for="XXXL">XXXL</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="XM">
+                    <label for="XM">XM</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="XS">
+                    <label for="XS">XS</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="Othher">
+                    <label for="Othher">Othher</label>
+                </div>
+            </div>
+
+            <p class="filterTitle">Filter by Brand</p>
+            <div class="filterbrand">
+                <div>
+                    <input type="checkbox" name="" id="Adidas">
+                    <label for="Adidas">Adidas</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="adidas originals">
+                    <label for="adidas originals">adidas originals</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Asics">
+                    <label for="Asics">Asics</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Fila">
+                    <label for="Fila">Fila</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="New Balance">
+                    <label for="New Balance">New Balance</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Nike">
+                    <label for="Nike">Nike</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Puma">
+                    <label for="Puma">Puma</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Reebok">
+                    <label for="Reebok">Reebok</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Sneaker Lab">
+                    <label for="Sneaker Lab">Sneaker Lab</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Superkicks">
+                    <label for="Superkicks">Superkicks</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Toms">
+                    <label for="Toms">Toms</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="Crocs">
+                    <label for="Crocs">Crocs</label>
+                </div>
+            </div>
+
+            <p class="filterTitle">Filter by Colour</p>
+            <div class="filtercolor">
+                <div>
+                    <input type="checkbox" name="" id="Black">
+                    <label for="Black">Black</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Blue">
+                    <label for="Blue">Blue</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Brown">
+                    <label for="Brown">Brown</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Cream">
+                    <label for="Cream">Cream</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Gold">
+                    <label for="Gold">Gold</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Green">
+                    <label for="Green">Green</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Gray">
+                    <label for="Gray">Gray</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Orange">
+                    <label for="Orange">Orange</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Pink">
+                    <label for="Pink">Pink</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Purple">
+                    <label for="Purple">Purple</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="Red">
+                    <label for="Red">Red</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="" id="White">
+                    <label for="White">White</label>
+                </div>
+            </div>
+
+            <p class="filterTitle">Filter by Price</p>
+            <div class="filterprice">
+                <div>
+                    <input type="number" name="" id="" min="0" max="40000">
+                    <input type="number" name="" id="" min="0" max="40000">
+                </div>
+                <div>
+                    <input type="range" name="" id="">
+                    <button class="apply-Filter">Apply Filter</button>
+                    <button class="reset-Filter">Reset Filter</button>
+                </div>
+              
+            </div>
+
+
+        </section>
+
+        <section class="product-box">
+           
+        </section>
+
+    </section>
+
+    <!-- footer -->
+  
+    <footer>
+        <div class="footerbox container">
+            <div class="box1">
+                <p>IMPORTANT LINKS</p><br>
+                <a href="../RefundsCancellation/refund.html">Refunds/Cancellation</a><br>
+                <a href="../Terms and Conditions/T&c.html">terms and Conditions</a><br>
+                <a href="../FAQ/FAQ.html">FAQ</a><br>
+                <a href="../privacy/Privacy.html">Privacy Policy</a><br>
+                <a href="../FAQ/FAQ.html">Shipping</a>
+                <div class="about">© Super Kicks India Pvt. Ltd. 2021</div>
+            </div>
+            <div class="box2">
+                <p>NEED HELP?</p><br>
+                <a href="../user-form/index.html">My Account</a><br>
+                <a href="../size chat/sizeChat.html">Size Chart</a><br>
+                <a href="../contactUs/contactUs.html">Contact Us</a>
+            </div>
+            <div class="box3">
+                <p>FOLLOW</p><br>
+                <a href="https://www.instagram.com/superkicksindia/?hl=en">Instagram</a><br>
+                <a href="https://www.facebook.com/SuperkicksIndia/">Facebook</a>
+            </div>
+            <div class="box4">
+                <p>SUBSCRIBE TO OUR NEWSLETTER</p><br>
+                <P class="para">join our mailing list to recieve the latest news.</P><br>
+                <input class="input" type="text" id="inputItem" placeholder="Email address"><br>
+                <button id="subscribe" class="subBtn">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      <script src="apidata.js"></script>
+    <script src="index.js"></script>
+    <script src="../header-footer/script.js"></script>
+</body>
+
+</html>

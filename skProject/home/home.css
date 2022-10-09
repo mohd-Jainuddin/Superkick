@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.category-header,.crousel-header{
+    /* border: 2px solid black; */
+    /* display: inline; */
+    margin: 20px 0 20px 40px;
+    letter-spacing: 7px;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    padding: 0 10px;
+    
+}
+/* .category div{
+    width: 100%;
+    border: 2px solid black;
+} */
+.category img{
+    /* width: 100%; */
+    height: 575px;
+}
+
+
+.stores-india{
+    margin:0 20px;
+    width: 97%;
+ /* margin: auto; */
+ display: flex;
+ /* flex-wrap: wrap; */
+justify-content: space-around;
+}
+.stores-india div{
+    width: 24%;
+}
+.img{
+    width: 100%;
+}
+
+.xyz{
+    position: relative;
+}
+.next,.pev{
+    position: absolute;
+    top: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pev{
+    left: 3%;
+}
+.next{
+    right: 3%;
+}
+
+
+
+
+
+
